@@ -57,9 +57,7 @@ function Home() {
                             <h4>Menu</h4>
                         </Link>
                         
-                        <ul className="header__list">
-                            <li>Bookings</li>
-                        </ul>
+                        
                     </div>
                     <div className="logo">
                         <h4>Blr airs</h4>

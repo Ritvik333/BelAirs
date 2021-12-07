@@ -1,15 +1,15 @@
 import React,{useState} from 'react';
 import './login.css';
 
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
  
 function NewComponent({setdata}){
-    const [link,setlink] = useState("hidden")
     
+    const Nav=useNavigate();
     const handleSubmit=(event)=>{
         event.preventDefault();
         setdata({email: event.target.elements.email.value, number: event.target.elements.phno.value, name: event.target.elements.Name.value})
-        setlink('visible')
+        Nav('success')
     }
 
     return(
@@ -30,7 +30,7 @@ function NewComponent({setdata}){
             <hr />
             <p>By confirming your booking you agree to our <a href="https://policies.google.com/privacy?hl=en-US">Terms &amp; Privacy</a>.</p>
            <button type="submit" className="confirm" >Proceed to booking</button>
-           <Link style={{visibility:link}} to="/booking">Prooces</Link>
+           {/* <Link style={{visibility:link}} to="/booking">Prooces</Link> */}
           </div>
         </form>
       </div>

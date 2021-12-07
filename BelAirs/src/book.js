@@ -1,5 +1,7 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+
 
 function Book({data}){
 
@@ -20,7 +22,7 @@ function Book({data}){
           <title>Flight - Travel and Tour</title>
           <meta name="description" content />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          {/* <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+          <link rel="apple-touch-icon" href="apple-touch-icon.png" />
           <link rel="stylesheet" href="css/bootstrap.min.css" />
           <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
           <link rel="stylesheet" href="css/fontAwesome.css" />
@@ -28,7 +30,7 @@ function Book({data}){
           <link rel="stylesheet" href="css/owl-carousel.css" />
           <link rel="stylesheet" href="css/datepicker.css" />
           <link rel="stylesheet" href="css/tooplate-style.css" />
-          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" /> */}
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" /> 
           <section className="banner" id="top">
             <div className="container">
               <div className="row">
@@ -110,7 +112,7 @@ function Book({data}){
                             </div>
                             <div className="col-md-6">
                               <fieldset>
-                                <button type="submit" id="form-submit" className="btn">Order Ticket Now</button>
+                                <Link to="/"><button type="submit" id="form-submit" className="btn">Order Ticket Now</button></Link>
 
                               </fieldset>
                             </div>
