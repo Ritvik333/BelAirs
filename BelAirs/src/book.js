@@ -112,7 +112,9 @@ function Book({data}){
                             </div>
                             <div className="col-md-6">
                               <fieldset>
-                                <Link to="/"><button type="submit" id="form-submit" className="btn">Order Ticket Now</button></Link>
+                                <button type="submit" id="form-submit" className="btn">Order Ticket Now</button>
+                                <Link to="/"><button type="submit" id="form-submit" className="btn">Back to Home</button></Link>
+
 
                               </fieldset>
                             </div>
