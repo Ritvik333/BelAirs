@@ -94,8 +94,7 @@ function Home() {
                     </ul>
                     <div className="nav-details">
                             <div className="nav-address">
-                                <h5>Find Us</h5>
-                                <p> sutta gully</p>
+                    
                                 <h5>Call Us</h5>
                                 <p>
                                     {/* <AiIcons.AiOutlineMobile className="phone" /> +44(0)20 3548 6589  */}
@@ -103,10 +102,10 @@ function Home() {
                                 </p>
                             </div>
                             <div className="nav-socials">
-                                <a className="nav-socials-icons" href="https://www.instagram.com/ritvik._/">
+                                <a className="nav-socials-icons" href="https://www.instagram.com/">
                                    <FaIcons.FaInstagram className="socials" />
                                 </a>
-                                <a className="nav-socials-icons" href="https://www.facebook.com/ParamahamsaNithyananda">
+                                <a className="nav-socials-icons" href="https://www.facebook.com/">
                                     <FaIcons.FaFacebookF className="socials" />
                                 </a>
                                 <div className="nav-socials-icons">
@@ -123,13 +122,17 @@ function Home() {
            <section className="home__body">
                <div className="home__socials">
                    <div className="home__SM">
+                   <a className="home__SM" href="https://www.facebook.com/">
                        <FaIcons.FaFacebookF className="home__SMicon" />
+                    </a>
                    </div>
-                   <a className="home__SM" href="https://www.instagram.com/ritvik._/">
+                   <a className="home__SM" href="https://www.instagram.com/">
                        <FaIcons.FaInstagram className="home__SMicon"  />
                    </a>
                    <div className="home__SM">
-                       <FaIcons.FaTwitter className="home__SMicon" />
+                       <a  href="www.twitter.com/">
+                       <FaIcons.FaTwitter className="home__SMicon"  />
+                       </a>
                    </div>
                    <a className="home__SM" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                        <FaIcons.FaYoutube className="home__SMicon" />

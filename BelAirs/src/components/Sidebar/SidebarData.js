@@ -11,11 +11,6 @@ export const SidebarData = [
     },
   
     {
-        title: 'Why BelAirs',
-        path: '/belairs',
-        cName: 'nav-text'
-    },
-    {
         title: 'your bookings',
         path: '/yourbooking',
         cName: 'nav-text'

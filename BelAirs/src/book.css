@@ -1,0 +1,124 @@
+body{
+    background-image:url(./bg_book.jpeg) ;
+}
+
+#main{
+    color: rgb(181, 127, 252);
+    opacity: 1;
+    
+}
+
+h3{
+    position: relative;
+    left: 250px;
+    margin: 10px;
+}
+
+#cont{
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 500px; 
+    width: 700px; 
+    margin:auto ;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+
+#t2{
+    color:rgb(181, 127, 252);
+    position: relative;
+    left: 10px;
+    width: 280px;
+    height: 30px;
+    margin: 20px;
+    background: transparent;
+}
+
+
+#t3{
+    color:rgb(181, 127, 252);
+    position: relative;
+    left: 5px;
+    width: 280px;
+    height: 30px;
+    margin: 20px;
+    background: transparent;
+}
+
+#fsubmit{
+    background-color: rgb(29, 9, 204);
+    color: white;
+    padding: 16px;
+    margin: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 45px;
+    width: 500px;
+    opacity: 0.8;
+}
+
+.sel{
+    width: 660px;
+    height: 50px;
+    color: black;
+}
+
+#dt{
+    color:rgb(181, 127, 252);
+    position: relative;
+    left: 20px;
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    background: transparent;
+}
+
+#dt2{
+    color:rgb(181, 127, 252);
+    position: relative;
+    left: 35px;
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    background: transparent;
+}
+
+#dlb{
+    position: relative;
+    left: 30px;
+}
+
+#dlb2{
+    position: relative;
+    left: 233px;
+}
+
+h4{
+    position: relative;
+    left: 30px;
+}
+
+#round{
+    position: relative;
+    left: 25px;
+    margin: 10px;
+}
+
+#oneway{
+    position: relative;
+    left: 25px;
+    margin: 10px;
+}
+
+#rl{
+    position: relative;
+    left: 10px;
+    margin: 10px;
+}
+
+#rl2{
+    position: relative;
+    left: 10px;
+    margin: 10px;
+}

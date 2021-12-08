@@ -15,11 +15,13 @@ body {
   
   /* Add padding to containers */
   .container {
-    padding: 16px;
-    background-color: white;
-    margin: auto;
-    width: 60%;
-    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 500px; 
+    width: 700px; 
+    margin:auto ;
+    padding: 20px;
+    opacity: 0.9;
+    color:rgba(255, 255, 255, 0.795);;
   }
   
   /* Full-width input fields */
