@@ -28,7 +28,7 @@ function NewComponent({setdata}){
             <label htmlFor="Name"><b>Full Name</b></label>
             <input type="name" placeholder="Enter Name" name="Name" id="Name" required />
             <hr />
-            <p>By confirming your booking you agree to our <a href="https://policies.google.com/privacy?hl=en-US">Terms &amp; Privacy</a>.</p>
+            <p>By confirming your booking you agree to our <a target="_blank" href="http://https://www.etihad.com/en-in/legal/terms-and-conditions">Terms &amp; Privacy</a>.</p>
            <button type="submit" className="confirm" >Proceed to booking</button>
            {/* <Link style={{visibility:link}} to="/booking">Prooces</Link> */}
           </div>

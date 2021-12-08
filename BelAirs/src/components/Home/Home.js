@@ -65,8 +65,13 @@ function Home() {
                     <div className="header__links">
                         <ul className="header__list">
                            
+<<<<<<< HEAD
                             <li onClick={showSidebar} >Contact</li>
                             <a id="help" href="https://www.bengaluruairport.com/travellers/passenger-services/meet-assist.html"><li>Help</li></a>
+=======
+                            <li>Contact</li>
+                            <a id="help"  target="_blank" className=""href="https://www.bengaluruairport.com/travellers/passenger-services/meet-assist.html"><li>Help</li></a>
+>>>>>>> 7c38c39023c47893cc02e32d4fa83e6d479759ff
                         </ul>
                     </div>
                 </header>
