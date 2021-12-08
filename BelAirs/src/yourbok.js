@@ -8,9 +8,13 @@ const handleSubmit=(event)=>{
     axios.post("http://127.0.0.1:4000/data/dread",{email:event.target.elements.email.value}).then(res=>{
         if(!res.data) setbooking("no bookings found");
         else {
-            const data=`email: ${res.data.email} phone number: ${res.data.number} name: ${res.data.name} 
-            From: ${res.data.from} To: ${res.data.to} Departure date: ${res.data.Dep_date} 
-            Arrival date: ${res.data.Ret_date} Trip: ${res.data.Round}`
+            var data=`email: ${res.data.email} 
+phone number: ${res.data.number} 
+name: ${res.data.name} 
+From: ${res.data.from} To: ${res.data.to} 
+Departure date: ${res.data.Dep_date} 
+Arrival date: ${res.data.Ret_date} 
+Trip: ${res.data.Round}`
             setbooking(data);
             
         }
@@ -26,7 +30,7 @@ return(
             <button type="submit" className="confirm" >Check booking</button>
             <h2>Booking Details:</h2>
             <hr/>
-            <p style={{backgroundColor:"black",color:"white"}}><b>{booking}</b></p>
+            <pre style={{color:"white",fontSize:"20px"}}><b>{booking}</b></pre>
             </div></form>)}
 
 export default Bok;

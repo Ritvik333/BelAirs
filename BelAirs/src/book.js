@@ -11,8 +11,9 @@ function Book({data}){
       if(!res.data) axios.post("http://127.0.0.1:4000/data/dwrite",logindata)
       else console.log("User exists")
     })
-    
+    window.location.replace("/");
 }
+
 
       return (
         <div>
@@ -106,7 +107,7 @@ function Book({data}){
                                 <div className="col-md-6">
 
                                     <button type="submit" id="fsubmit" className="btn">Order Ticket</button>
-                                 <Link to="/" >  <button type="submit" id="fsubmit" className="btn">Back to home</button></Link>
+                                 {/* <Link to="/" >  <button type="submit" id="fsubmit" className="btn">Back to home</button></Link> */}
                                 </div>
                               </div>
                             </form>
