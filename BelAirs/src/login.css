@@ -16,7 +16,7 @@ body {
   /* Add padding to containers */
   .container {
     background-color: rgba(0, 0, 0, 0.795);
-    height: 500px; 
+    height: 550px; 
     width: 700px; 
     margin:auto ;
     padding: 20px;
