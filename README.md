@@ -1,5 +1,5 @@
 # BelAirs
-# this is the sem3 project 
+Sem-3 Web Tech Project (MERN stack)
 contributers
 SAIEESH S RAO
 RITVIK WUYYURU
